@@ -19,16 +19,14 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/img")
-//解决跨域问题
-@CrossOrigin(allowCredentials = "true",allowedHeaders = "*")
 public class ImgController {
 
     //获取验证码Img
     @GetMapping("/verify")
-    public Map<String, Object> getYZM(HttpServletRequest request, HttpServletResponse response) {
+    public Map<String, Object> getYZM(HttpServletRequest request) {
         ImgResult rs = null;
         try {
-            rs = VerifyCodeUtils.VerifyCode(74, 38, 4);
+            rs = VerifyCodeUtils.VerifyCode(71, 38, 4);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -43,10 +41,8 @@ public class ImgController {
     //验证验证码的正确
     @PostMapping("/verify/{verify}")
     public Map<String, Object> verifyYZM(HttpServletRequest request,@PathVariable("verify") String verify) {
-        System.out.println("执行验证验证码的正确");
         String sessionVerify = (String) request.getSession().getAttribute("verify");
         Map<String, Object> map = new HashMap<String, Object>();
-
         if (sessionVerify.equalsIgnoreCase(verify)) {
             map.put("result ", "200");
             map.put("msg", "验证正确");

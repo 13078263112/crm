@@ -1,14 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04f06074-fed2-497a-a38d-608f44fa712f" name="Default Changelist" comment="" />
+    <list default="true" id="04f06074-fed2-497a-a38d-608f44fa712f" name="Default Changelist" comment="实现登录功能">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/yaoweicheng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzly/crm/config/GlobalCorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzly/crm/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzly/crm/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/crm.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzly/crm/CrmApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzly/crm/controller/ImgController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzly/crm/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzly/crm/entity/ImgResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzly/crm/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzly/crm/utility/VerifyCodeUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/lzly/crm/CrmApplicationTests.class" afterDir="false" />
+      <change afterPath="D:/banking/src/main/main.iml" afterDir="false" />
+      <change afterPath="D:/blogs_puls/.idea/.gitignore" afterDir="false" />
+      <change afterPath="D:/blogs_puls/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/crm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzly/crm/CrmApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzly/crm/CrmApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzly/crm/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzly/crm/controller/ImgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzly/crm/controller/ImgController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzly/crm/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzly/crm/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzly/crm/utility/RedisUtil.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -29,19 +95,39 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lzly.crm.utility" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="CrmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="crm" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzly.crm.CrmApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -60,7 +146,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\yaoweicheng\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,24 +158,115 @@
       <workItem from="1581142208510" duration="82000" />
       <workItem from="1581142292550" duration="313000" />
       <workItem from="1581142608659" duration="628000" />
+      <workItem from="1581144491732" duration="14000" />
+      <workItem from="1581162652364" duration="10000" />
+      <workItem from="1581318281989" duration="7000" />
+      <workItem from="1581318292367" duration="971000" />
+      <workItem from="1581338113473" duration="10166000" />
+      <workItem from="1581420106179" duration="2838000" />
+      <workItem from="1581423539903" duration="7273000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="实现登录功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现登录功能" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="283" key="FileChooserDialogImpl" timestamp="1581143259613">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="2411" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581339727232">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
+    <state x="2411" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581339727232" />
+    <state x="2510" y="259" key="#com.intellij.ide.util.ExportDialog" timestamp="1581348236813">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2510" y="259" key="#com.intellij.ide.util.ExportDialog/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581348236813" />
+    <state x="2685" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1581422931905">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2685" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581422931905" />
+    <state x="2610" y="274" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581429704128">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2610" y="274" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581429704128" />
+    <state x="2381" y="119" key="CommitChangelistDialog2" timestamp="1581348381140">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2381" y="119" key="CommitChangelistDialog2/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581348381140" />
+    <state x="2660" y="283" key="FileChooserDialogImpl" timestamp="1581347829050">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2660" y="283" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581347829050" />
     <state x="740" y="283" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1581143259613" />
     <state x="785" y="439" width="373" height="172" key="Github.CreateGistDialog" timestamp="1581142921923">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="785" y="439" width="373" height="172" key="Github.CreateGistDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1581142921923" />
-    <state x="463" y="172" width="993" height="708" key="SettingsEditor" timestamp="1581143236157">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="2755" y="433" width="274" height="196" key="Github.ShareDialog" timestamp="1581347639643">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
+    <state x="2755" y="433" width="274" height="196" key="Github.ShareDialog/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581347639643" />
+    <state width="1877" height="170" key="GridCell.Tab.0.bottom" timestamp="1581430438006">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="170" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581430438006" />
+    <state width="1877" height="170" key="GridCell.Tab.0.center" timestamp="1581430438005">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="170" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581430438005" />
+    <state width="1877" height="170" key="GridCell.Tab.0.left" timestamp="1581430438004">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="170" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581430438004" />
+    <state width="1877" height="170" key="GridCell.Tab.0.right" timestamp="1581430438005">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="170" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581430438005" />
+    <state width="1877" height="170" key="GridCell.Tab.1.bottom" timestamp="1581430438013">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="170" key="GridCell.Tab.1.bottom/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581430438013" />
+    <state width="1877" height="170" key="GridCell.Tab.1.center" timestamp="1581430438009">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="170" key="GridCell.Tab.1.center/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581430438009" />
+    <state width="1877" height="170" key="GridCell.Tab.1.left" timestamp="1581430438007">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="170" key="GridCell.Tab.1.left/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581430438007" />
+    <state width="1877" height="170" key="GridCell.Tab.1.right" timestamp="1581430438011">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="170" key="GridCell.Tab.1.right/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581430438011" />
+    <state x="2528" y="162" key="Registry" timestamp="1581338894333">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2528" y="162" key="Registry/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581338894333" />
+    <state x="2383" y="172" width="993" height="708" key="SettingsEditor" timestamp="1581338980017">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2383" y="172" key="SettingsEditor/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581338980017" />
     <state x="463" y="172" width="993" height="708" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1581143236157" />
+    <state x="2472" y="261" key="Vcs.Push.Dialog.v2" timestamp="1581431047931">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2472" y="261" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581431047931" />
+    <state x="2572" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1581420136531">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2572" y="352" key="com.intellij.ide.util.TipDialog/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581420136531" />
+    <state x="652" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1581162655867" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="crm" type="b2602c69:ProjectViewProjectNode" />
+        <item name="crm" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
   </component>
 </project>
