@@ -21,6 +21,9 @@ public class UserServiceImpl implements UserService {
     private RedisTemplate<String,String> redisTemplate;
     @Override
     public User login(String userName, String userPassword) {
+        User user = new User();
+        user.setUserName(userName);
+        user.setUserPassword(userPassword);
         return null;
     }
     @Override

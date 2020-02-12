@@ -1,49 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04f06074-fed2-497a-a38d-608f44fa712f" name="Default Changelist" comment="实现登录功能">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/yaoweicheng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_45_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_45_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_45_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_45_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_45_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_45_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzly/crm/config/GlobalCorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzly/crm/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzly/crm/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/crm.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzly/crm/CrmApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzly/crm/controller/ImgController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzly/crm/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzly/crm/entity/ImgResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzly/crm/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzly/crm/utility/VerifyCodeUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/lzly/crm/CrmApplicationTests.class" afterDir="false" />
-      <change afterPath="D:/banking/src/main/main.iml" afterDir="false" />
-      <change afterPath="D:/blogs_puls/.idea/.gitignore" afterDir="false" />
-      <change afterPath="D:/blogs_puls/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="04f06074-fed2-497a-a38d-608f44fa712f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/crm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzly/crm/CrmApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzly/crm/CrmApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzly/crm/config/RedisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzly/crm/controller/ImgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzly/crm/controller/ImgController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lzly/crm/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzly/crm/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzly/crm/utility/RedisUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzly/crm/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzly/crm/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzly/crm/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzly/crm/controller/UserController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,8 +128,20 @@
       <workItem from="1581318292367" duration="971000" />
       <workItem from="1581338113473" duration="10166000" />
       <workItem from="1581420106179" duration="2838000" />
-      <workItem from="1581423539903" duration="7273000" />
+      <workItem from="1581423539903" duration="8925000" />
+      <workItem from="1581443037245" duration="659000" />
+      <workItem from="1581492985298" duration="11484000" />
+      <workItem from="1581520678013" duration="871000" />
+      <workItem from="1581525944064" duration="78000" />
     </task>
+    <task id="LOCAL-00001" summary="实现登录限制">
+      <created>1581431077666</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581431077666</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +149,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="实现登录功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现登录功能" />
+    <MESSAGE value="实现登录限制" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现登录限制" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2411" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581339727232">
@@ -184,18 +161,18 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2510" y="259" key="#com.intellij.ide.util.ExportDialog/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581348236813" />
-    <state x="2685" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1581422931905">
+    <state x="2685" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1581510228530">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2685" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581422931905" />
+    <state x="2685" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581510228530" />
     <state x="2610" y="274" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581429704128">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2610" y="274" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581429704128" />
-    <state x="2381" y="119" key="CommitChangelistDialog2" timestamp="1581348381140">
+    <state x="2381" y="119" key="CommitChangelistDialog2" timestamp="1581431072010">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2381" y="119" key="CommitChangelistDialog2/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581348381140" />
+    <state x="2381" y="119" key="CommitChangelistDialog2/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581431072010" />
     <state x="2660" y="283" key="FileChooserDialogImpl" timestamp="1581347829050">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
@@ -209,38 +186,46 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2755" y="433" width="274" height="196" key="Github.ShareDialog/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581347639643" />
-    <state width="1877" height="170" key="GridCell.Tab.0.bottom" timestamp="1581430438006">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state width="1478" height="157" key="GridCell.Tab.0.bottom" timestamp="1581521549027">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1877" height="170" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581430438006" />
-    <state width="1877" height="170" key="GridCell.Tab.0.center" timestamp="1581430438005">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state width="1478" height="157" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1581521549027" />
+    <state width="1877" height="189" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581518592628" />
+    <state width="1478" height="157" key="GridCell.Tab.0.center" timestamp="1581521549022">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1877" height="170" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581430438005" />
-    <state width="1877" height="170" key="GridCell.Tab.0.left" timestamp="1581430438004">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state width="1478" height="157" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1581521549022" />
+    <state width="1877" height="189" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581518592628" />
+    <state width="1478" height="157" key="GridCell.Tab.0.left" timestamp="1581521549018">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1877" height="170" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581430438004" />
-    <state width="1877" height="170" key="GridCell.Tab.0.right" timestamp="1581430438005">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state width="1478" height="157" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1581521549018" />
+    <state width="1877" height="189" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581518592628" />
+    <state width="1478" height="157" key="GridCell.Tab.0.right" timestamp="1581521549024">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1877" height="170" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581430438005" />
-    <state width="1877" height="170" key="GridCell.Tab.1.bottom" timestamp="1581430438013">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state width="1478" height="157" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1581521549024" />
+    <state width="1877" height="189" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581518592628" />
+    <state width="1478" height="157" key="GridCell.Tab.1.bottom" timestamp="1581521549039">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1877" height="170" key="GridCell.Tab.1.bottom/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581430438013" />
-    <state width="1877" height="170" key="GridCell.Tab.1.center" timestamp="1581430438009">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state width="1478" height="157" key="GridCell.Tab.1.bottom/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1581521549039" />
+    <state width="1877" height="189" key="GridCell.Tab.1.bottom/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581518592628" />
+    <state width="1478" height="157" key="GridCell.Tab.1.center" timestamp="1581521549037">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1877" height="170" key="GridCell.Tab.1.center/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581430438009" />
-    <state width="1877" height="170" key="GridCell.Tab.1.left" timestamp="1581430438007">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state width="1478" height="157" key="GridCell.Tab.1.center/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1581521549037" />
+    <state width="1877" height="189" key="GridCell.Tab.1.center/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581518592628" />
+    <state width="1478" height="157" key="GridCell.Tab.1.left" timestamp="1581521549032">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1877" height="170" key="GridCell.Tab.1.left/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581430438007" />
-    <state width="1877" height="170" key="GridCell.Tab.1.right" timestamp="1581430438011">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state width="1478" height="157" key="GridCell.Tab.1.left/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1581521549032" />
+    <state width="1877" height="189" key="GridCell.Tab.1.left/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581518592628" />
+    <state width="1478" height="157" key="GridCell.Tab.1.right" timestamp="1581521549038">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1877" height="170" key="GridCell.Tab.1.right/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581430438011" />
+    <state width="1478" height="157" key="GridCell.Tab.1.right/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1581521549038" />
+    <state width="1877" height="189" key="GridCell.Tab.1.right/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581518592628" />
     <state x="2528" y="162" key="Registry" timestamp="1581338894333">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
@@ -250,15 +235,16 @@
     </state>
     <state x="2383" y="172" key="SettingsEditor/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581338980017" />
     <state x="463" y="172" width="993" height="708" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1581143236157" />
-    <state x="2472" y="261" key="Vcs.Push.Dialog.v2" timestamp="1581431047931">
+    <state x="2472" y="261" key="Vcs.Push.Dialog.v2" timestamp="1581431083789">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2472" y="261" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581431047931" />
-    <state x="2572" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1581420136531">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state x="2472" y="261" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581431083789" />
+    <state x="522" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1581525995117">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state x="522" y="280" key="com.intellij.ide.util.TipDialog/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1581525995117" />
     <state x="2572" y="352" key="com.intellij.ide.util.TipDialog/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581420136531" />
-    <state x="652" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1581162655867" />
+    <state x="652" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1581492986362" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
