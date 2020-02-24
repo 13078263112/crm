@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04f06074-fed2-497a-a38d-608f44fa712f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzly/crm/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzly/crm/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzly/crm/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzly/crm/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzly/crm/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzly/crm/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzly/crm/controller/UserController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +30,7 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -133,6 +131,10 @@
       <workItem from="1581492985298" duration="11484000" />
       <workItem from="1581520678013" duration="871000" />
       <workItem from="1581525944064" duration="78000" />
+      <workItem from="1582353035624" duration="1289000" />
+      <workItem from="1582523226142" duration="8000" />
+      <workItem from="1582532431673" duration="14000" />
+      <workItem from="1582533124001" duration="310000" />
     </task>
     <task id="LOCAL-00001" summary="实现登录限制">
       <created>1581431077666</created>
@@ -165,6 +167,10 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2685" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581510228530" />
+    <state x="2520" y="453" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1582533168442">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2520" y="453" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1582533168442" />
     <state x="2610" y="274" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581429704128">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
@@ -239,12 +245,16 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2472" y="261" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581431083789" />
-    <state x="522" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1581525995117">
+    <state x="522" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1582523226511">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="522" y="280" key="com.intellij.ide.util.TipDialog/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1581525995117" />
+    <state x="522" y="280" key="com.intellij.ide.util.TipDialog/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1582523226511" />
     <state x="2572" y="352" key="com.intellij.ide.util.TipDialog/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1581420136531" />
     <state x="652" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1581492986362" />
+    <state x="2674" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582533202048">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2674" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1582533202048" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
